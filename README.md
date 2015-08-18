@@ -1,7 +1,7 @@
 google-geocoder
 ===============
 
-![alt text](https://travis-ci.org/arunpoudel/google-geocoder.svg?branch=master "Master Travis Build Status")
+[![Build Status](https://travis-ci.org/arunpoudel/google-geocoder.svg?branch=master)](https://travis-ci.org/arunpoudel/google-geocoder)
 [![Coverage Status](https://coveralls.io/repos/arunpoudel/google-geocoder/badge.svg?branch=master&service=github)](https://coveralls.io/github/arunpoudel/google-geocoder?branch=master)
 
 ##Installation
