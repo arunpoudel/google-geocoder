@@ -26,3 +26,6 @@ install:
 
 script:
    - vendor/bin/phpspec run --format=pretty
+
+after_success:
+  - coveralls
