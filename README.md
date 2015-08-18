@@ -1,4 +1,7 @@
-# google-geocoder
+google-geocoder
+===============
+
+![alt text](https://travis-ci.org/arunpoudel/google-geocoder.svg?branch=master "Master Travis Build Status")
 
 ##Installation
 Add this line to you composer.json
