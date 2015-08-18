@@ -1,5 +1,14 @@
 # google-geocoder
 
+##Installation
+Add this line to you composer.json
+
+`"arunpoudel/php-google-geocoder" : "dev-master"`
+
+OR run
+
+`composer require arunpoudel/php-google-geocoder`
+
 ##Usuage
 
 ```
