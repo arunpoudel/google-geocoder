@@ -16,7 +16,7 @@ OR run
 
 require_once "vendor/autoload.php";
 
-$geo_coder = new GoogleGeoCoder\GeoCoder("AIzaSyB_56jeanT5FQZmtsKq97t5DWtGyXiWFwQ");
+$geo_coder = new GoogleGeoCoder\GeoCoder("YourKeyGoesHere");
 
 $geo_coder->lookup([
     'address' => 'Lagerveien 9, Stavanger'
