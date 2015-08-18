@@ -23,7 +23,7 @@ before_install:
 
 install:
   - export COMPOSER_ROOT_VERSION=dev-master
-  - composer update; fi;
+  - composer update
 
 script:
    - bin/phpspec run --format=pretty
