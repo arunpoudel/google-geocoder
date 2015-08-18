@@ -56,6 +56,6 @@ class GeoCoderSpec extends ObjectBehavior
 
     function it_should_accept_custom_client()
     {
-        $this->beConstructedWith('somerandomkey', new \GuzzleHttp\Client());
+        $this->create('somerandomkey', new \GuzzleHttp\Client());
     }
 }

@@ -95,7 +95,11 @@ class GeoCoder
                         }
                     },
                     function ($response) use ($lookup_promise) {
-                        $lookup_promise->reject([]);
+                        $lookup_promise->reject(
+                            sprintf(
+                                "Server responded with failure"
+                            )
+                        );
                     }
                 )->wait();
             }
