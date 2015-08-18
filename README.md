@@ -2,6 +2,7 @@ google-geocoder
 ===============
 
 ![alt text](https://travis-ci.org/arunpoudel/google-geocoder.svg?branch=master "Master Travis Build Status")
+[![Coverage Status](https://coveralls.io/repos/arunpoudel/google-geocoder/badge.svg?branch=master&service=github)](https://coveralls.io/github/arunpoudel/google-geocoder?branch=master)
 
 ##Installation
 Add this line to you composer.json
