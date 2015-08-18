@@ -5,7 +5,9 @@
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "satooshi/php-coveralls": "dev-master",
+        "henrikbjorn/phpspec-code-coverage" : "1.0.*@dev"
     },
     "license": "MIT",
     "authors": [
