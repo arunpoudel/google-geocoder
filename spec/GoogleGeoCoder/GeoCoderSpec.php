@@ -38,4 +38,24 @@ class GeoCoderSpec extends ObjectBehavior
 
         $promise->wait();
     }
+
+    function it_should_be_able_to_get_error_from_google()
+    {
+        $this->beConstructedWith('somerandomkey');
+        $promise = $this->lookup(['somekey' => 'somerandomvalue'])
+        ->then(
+            function ($response) {
+                throw new \Exception("Getting Data From Google passed.");
+            },
+            function ($response) {
+            }
+        );
+
+        $promise->wait();
+    }
+
+    function it_should_accept_custom_client()
+    {
+        $this->beConstructedWith('somerandomkey', new \GuzzleHttp\Client());
+    }
 }
