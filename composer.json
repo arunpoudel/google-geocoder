@@ -1,0 +1,22 @@
+{
+    "name": "arunpoudel/php-google-geocoder",
+    "description" : "Geocoder using Google Geoder API for PHP",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arun Poudel",
+            "email": "fr3ak@fr3ak.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GoogleGeoCoder\\": "src/"
+        }
+    }
+}
