@@ -11,7 +11,7 @@ Add this line to you composer.json
 
 `"arunpoudel/php-google-geocoder" : "dev-master"`
 
-Then run
+OR run
 
 `composer require arunpoudel/php-google-geocoder`
 
