@@ -18,5 +18,6 @@ class GeoLocationSpec extends ObjectBehavior
         $this->getLongitude()->shouldReturn(5.7037228);
         $this->getStreetNumber()->shouldReturn("9");
         $this->getRoute()->shouldReturn("Lagerveien");
+        $this->getSomethingRandom()->shouldReturn(null);
     }
 }
